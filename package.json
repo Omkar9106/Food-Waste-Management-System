@@ -2,8 +2,8 @@
   "name": "food-waste-management",
   "version": "1.0.0",
   "scripts": {
-    "build": "flutter build web --release --web-renderer canvaskit",
-    "build:html": "flutter build web --release --web-renderer html",
+    "build": "flutter build web --release",
+    "build:html": "flutter build web --release",
     "clean": "flutter clean",
     "get": "flutter pub get"
   },

@@ -44,7 +44,7 @@ This guide will help you deploy the Flutter web app to Vercel.
 1. **Build the web app locally**
    ```bash
    # On Windows (Git Bash or PowerShell)
-   flutter build web --release --web-renderer canvaskit
+   flutter build web --release
    
    # Or use the provided script
    chmod +x build-web.sh

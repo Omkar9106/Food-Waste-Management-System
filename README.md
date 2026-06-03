@@ -69,7 +69,7 @@ A Flutter application that connects food donors with NGOs to reduce food waste a
 2. **Manual Deployment**
    ```bash
    # Build locally
-   flutter build web --release --web-renderer canvaskit
+   flutter build web --release
 
    # Deploy using Vercel CLI
    npm i -g vercel

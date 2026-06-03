@@ -1,5 +1,6 @@
 {
-  "buildCommand": "flutter build web --release",
+  "installCommand": "npm install",
+  "buildCommand": "chmod +x build-web.sh && ./build-web.sh",
   "outputDirectory": "build/web",
   "rewrites": [
     {
