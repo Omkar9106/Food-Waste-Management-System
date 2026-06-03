@@ -1,7 +1,17 @@
 {
-  "installCommand": "npm install",
-  "buildCommand": "chmod +x build-web.sh && ./build-web.sh",
-  "outputDirectory": "build/web",
+  "version": 2,
+  "public": "build/web",
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",
