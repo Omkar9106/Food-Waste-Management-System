@@ -1,11 +1,11 @@
 {
-    "name": "Food Waste Management",
-    "short_name": "FoodWaste",
+    "name": "myapp",
+    "short_name": "myapp",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#059669",
-    "theme_color": "#059669",
-    "description": "Connect donors with NGOs to reduce food waste and help communities.",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

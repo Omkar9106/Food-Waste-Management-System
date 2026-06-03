@@ -147,18 +147,18 @@ class _NgoDashboardState extends State<NgoDashboard> with TickerProviderStateMix
                 children: [
                   Text(
                     'NGO Portal',
-                    style: TextStyle(
-                      fontSize: size.width * 0.05,
+                    style: const TextStyle(
+                      fontSize: 16,
                       fontWeight: FontWeight.bold,
                       color: const Color(0xFF2C1810),
                     ),
                   ),
-                  const SizedBox(height: 6),
+                  const SizedBox(height: 4),
                   Text(
                     'Streamline requests, track pickups, and manage food access.',
-                    style: TextStyle(
-                      fontSize: size.width * 0.035,
-                      color: const Color(0xFF4A3728),
+                    style: const TextStyle(
+                      fontSize: 11,
+                      color: Color(0xFF4A3728),
                       height: 1.4,
                     ),
                   ),
